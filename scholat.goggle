@@ -1,0 +1,22 @@
+! name: Google Scholar Priority
+! description: Prioritize academic results from Google Scholar and major research sources.
+! public: true
+! author: Divya
+$boost, site=scholar.google.com = 10
+$boost, domain=arxiv.org = 8
+$boost, domain=jstor.org = 8
+$boost, domain=sciencedirect.com = 8
+$boost, domain=nature.com = 8
+$boost, domain=springer.com = 8
+$boost, domain=ieeexplore.ieee.org = 8
+$boost, domain=dl.acm.org = 8
+$boost, domain=researchgate.net = 6
+$boost, domain=academia.edu = 5
+$discard, domain=tiktok.com
+$discard, domain=pinterest.com
+$discard, domain=fandom.com
+$discard, domain=medium.com
+$discard, domain=quora.com
+$discard, domain=reddit.com
+$discard, domain=facebook.com
+$discard, domain=linkedin.com
