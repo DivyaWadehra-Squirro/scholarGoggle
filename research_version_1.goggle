@@ -11,9 +11,9 @@ $boost=10,site=scholar.google.com
 $boost=10,site=pubmed.ncbi.nlm.nih.gov
 $boost=10,site=perplexity.ai
 $boost=10,site=nature.com
-$boost=10,site=zbmed.de/recherchieren/livivo
+$boost=10,site=zbmed.de
 $boost=10,site=sciencedirect.com
 $boost=10,site=science.org
 $boost=10,site=nature.com
 $boost=10,site=cochranelibrary.com
-$boost=10,site=ema.europa.eu/en/human-regulatory-overview/research-development/clinical-trials-human-medicines/clinical-trials-regulation
+$boost=10,site=ema.europa.eu
